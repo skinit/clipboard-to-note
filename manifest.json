@@ -1,0 +1,10 @@
+{
+  "id": "clipboard-to-note",
+  "name": "Clipboard to Note",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Process clipboard text with AI-powered tag suggestions and save as formatted notes",
+  "author": "skinit24@gmail.com",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

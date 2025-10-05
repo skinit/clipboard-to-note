@@ -1,0 +1,9 @@
+/* Styles for Clipboard to Note plugin */
+
+.clipboard-to-note-ribbon-icon {
+    color: var(--text-normal);
+}
+
+.clipboard-to-note-ribbon-icon:hover {
+    color: var(--text-accent);
+}

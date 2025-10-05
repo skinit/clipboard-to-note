@@ -1,0 +1,17 @@
+# Build output
+main.js
+*.js.map
+
+# Dependencies
+node_modules/
+
+# Development
+.DS_Store
+
+# Plugin specific
+clipboard-to-note.xml
+install.sh
+CRUSH.md
+.crush/
+CLAUDE.md
+.build/
