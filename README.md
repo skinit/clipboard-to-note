@@ -30,11 +30,25 @@ An Obsidian plugin that processes clipboard text and URLs with AI-powered tag su
 
 ### Manual Installation
 
-1. Clone this repository or download the files
-2. Run `./build.sh` to build the plugin
-3. Run `./install.sh` to install to your Obsidian vault
-4. Restart Obsidian or reload the plugin
-5. Enable "Clipboard to Note" in Settings → Community Plugins
+- Clone this repository or download the files
+- Run `./build.sh` to build the plugin
+- Copy the built files to your Obsidian plugins directory:
+
+```bash
+# Define target directory
+TARGET_DIR="[path to your vault]/.obsidian/plugins/clipboard-to-note"
+
+# Create target directory if it doesn't exist
+mkdir -p "$TARGET_DIR"
+
+# Copy files to target directory
+cp main.js "$TARGET_DIR/"
+cp manifest.json "$TARGET_DIR/"
+cp styles.css "$TARGET_DIR/"
+```
+
+- Restart Obsidian or reload the plugin
+- Enable "Clipboard to Note" in Settings → Community Plugins
 
 ### Development
 
