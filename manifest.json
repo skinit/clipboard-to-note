@@ -5,6 +5,6 @@
   "minAppVersion": "0.15.0",
   "description": "Process clipboard text with AI-powered tag suggestions and save as formatted notes",
   "author": "skinit24@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://github.com/skinit/clipboard-to-note?tab=readme-ov-file",
   "isDesktopOnly": false
 }
